@@ -1,11 +1,14 @@
 body {
+    
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.mainContainer {
+    margin: 0 auto;
     width: 841px;
     height: 1189px;
     border: solid 2px rgb(209, 199, 199);
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
-
 
 h1 {
     margin-left: 100px;
