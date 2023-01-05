@@ -169,6 +169,7 @@ main button {
     line-height: 17px;
     text-transform: uppercase;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 footer {
@@ -258,4 +259,18 @@ footer .supportInfo {
 footer .supportInfo img {
     width: 216px;
     height: 31px;
+}
+
+button {
+    cursor: pointer;
+}
+
+input, select {
+    outline: none;
+}
+
+button:hover {
+    background-color: #73272e;
+    border: 1.5px solid #73272e;
+    border-radius: 6px;
 }
