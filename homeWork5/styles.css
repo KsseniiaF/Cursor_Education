@@ -58,6 +58,7 @@ table {
     line-height: 20px;
     border-radius: 20px;
     color: rgb(85 85 85);
+    cursor: pointer;
 }
 
 .tableWrapper .elipses {
@@ -69,6 +70,7 @@ table {
     line-height: 20px;
     border-radius: 20px;
     color: rgb(206 206 206); ;
+    cursor: pointer;
 }
 
 .tableWrapper img {
