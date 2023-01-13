@@ -433,3 +433,7 @@ footer {
     line-height: 180%;
     color: #212353;
 }
+
+.end-of-footer img {
+    cursor: pointer;
+}
