@@ -28,6 +28,7 @@ body {
 
 
 .wrapperForButton {
+    width: 1000px;
     margin: 0 auto;
     text-align: center;
     padding: 100px;
@@ -62,7 +63,7 @@ body {
     width: 200px;
     height: 6px;
     bottom: 141px;
-    left: 165px;
+    left: 120px;
     border-bottom: 2px solid #C4C4C4;
     border-top: 2px solid #C4C4C4;
 }
@@ -73,7 +74,7 @@ body {
     width: 200px;
     height: 6px;
     bottom: 141px;
-    right: 165px;
+    right: 120px;
     border-bottom: 2px solid #C4C4C4;
     border-top: 2px solid #C4C4C4;
 }
