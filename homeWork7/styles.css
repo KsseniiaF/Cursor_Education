@@ -1,0 +1,468 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    background-color:  #F5F5F5;;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 150px !important;
+    background-color: #FFFFFF;
+}
+
+.wrapperForIcons img {
+    padding-right: 10px ;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    height: 79px;
+    background-color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+nav ul li a{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li span a{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #EDA3B5;
+    border-bottom: 3px solid #EDA3B5;
+}
+
+.containerForHeader {
+    width: 100%;
+    height: 569px;
+    background-image: url(./images/hero.png);
+    margin-bottom: 70px;
+}
+
+.wrapperForHeadInfo {
+    margin-left: 165px;
+    padding-top: 103px;
+}
+
+.wrapperForHeadInfo h2 {
+    width: 361px;
+    height: 134px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.wrapperForHeadInfo p {
+    width: 446px;
+    height: 90px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.wrapperForHeadInfo button {
+    width: 255px;
+    height: 77px;
+    background: #1B2437;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.wrapperForHeadInfo button:hover {
+    background-color: #06080c;
+}
+
+.containerWomanColection {
+    width: 1112px;
+    height: 460px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.wrappColection {
+    background-image: url(./images/women_collection_category.png);
+    background-repeat: no-repeat;
+    grid-row: span 2;
+    border-radius: 16px;
+}
+
+
+.wrappSpring {
+    background: #EFEFF4;
+    border-radius: 16px;
+
+}
+
+.wrappSpring h3 {
+    width: 281px;
+    height: 90px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.wrappSpring p {
+    margin-top: 53px;
+    margin-left: 22px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+}
+
+.wrappDresses {
+    background-image: url(./images/dresses_category.png);
+    border-radius: 16px;
+}
+
+.wrappDresses p {
+    margin-left: 39px;
+    margin-top: 53px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.wrappDresses h3 {
+    margin-left: 39px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.wrappJackets {
+    background-image: url(./images/denim_jackets_category.png);
+    background-repeat: no-repeat;
+    grid-column: 2 / 4;
+    border-radius: 16px;
+}
+
+.wrappJackets p {
+    margin-left: 22px;
+    margin-top: 64px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+}
+
+.wrappJackets h3 {
+    margin-left: 22px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+    cursor: pointer;
+}
+
+.wrappColection h3 {
+    width: 288px;
+    height: 90px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-top: 270px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.wrappColection p {
+    width: 288px;
+    height: 30px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+
+.wrappColection button {
+    width: 93px;
+    height: 30px;
+    background: #FFFFFF;
+    opacity: 0.4;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;  
+    color: #9c9c9c;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.wrappColection button:hover {
+    background: #d3b9b9;
+}
+
+.wrapperForSlider{
+    width: 1110px;
+    height: 313px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+
+
+.shopSlider {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 24px;
+    padding-top: 20px;
+}
+
+.sliderElipse {
+    text-align: center;
+}
+
+.containerForShopList h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67px;
+    color: #1B2437;
+    margin-left: 165px;
+    margin-top: 70px;
+}
+
+.wrapperForShopList {
+    width: 1110px;
+    height: 1004px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.wrapperForShopList div {
+    width: 350px;
+    height: 487px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+    border-radius: 16px;
+}
+
+.wrapperForShopList  h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin: 16px 1px 8px 24px;
+}
+
+.wrapperForShopList p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 24px;
+    margin-bottom: 30px;
+}
+
+.wrapperForShopList .price {
+    display: inline-block;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    color: #000000;
+    margin-right: 63px;
+}
+
+.wrapperForShopList button {
+    width: 153px;
+    height: 58px;
+    background: #1B2437;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.wrapperForShopList button:hover {
+    background-color: #040508;
+}
+
+.wrapperForShopList .roseButton {
+    background: #EDA3B5;    
+}
+
+.wrapperForShopList .roseButton:hover {
+    background-color: #8d626d;
+}
+
+.contacts {
+    width: 1090px;
+    height: 658px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.wrapperForFlexIcons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrapperForIconsContacts p {
+    margin-top: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.moreInfo {
+    display: flex;
+    justify-content: space-around;
+    gap: 160px;
+    padding: 35px 150px 50px 130px;
+    background: #FFFFFF;
+}
+
+.moreInfo h3 {
+    height: 30px;
+    margin-bottom: 22px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.moreInfo li{
+    padding-bottom: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;  
+    color: #8E8E93;
+    cursor: pointer;
+}
+
+.moreInfo p {
+    width: 255px;
+    height: 180px;
+    margin-top: 24px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+footer {
+    height: 74px;
+    display: flex;
+    justify-content: space-around;
+    gap: 812px;
+}
+
+footer img {
+    width: 124px;
+    height: 18px;
+    margin-top: 22px;
+}
+
+footer p {
+    margin-top: 22px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;  
+    color: #8E8E93;
+}
