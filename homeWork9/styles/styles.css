@@ -204,7 +204,7 @@ body {
 .second_block_part_one {
     width: 50%;
     min-height: 592px;
-    background-image: url(/img/fone2.png) ;
+    background: url(/img/fone2.png) ;
 }
 
 .text_area_arsenal {
@@ -425,7 +425,7 @@ body {
 
 .fourth_block {
     width: 100%;
-    background-image: url(/img/fone_4block.png);
+    background: url(/img/fone_4block.png);
     padding: 80px 165px;
 }
 .fourth_block svg {
