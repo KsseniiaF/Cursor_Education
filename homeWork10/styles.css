@@ -1,0 +1,114 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background: url(./img/stars_sky.jpg) ;
+}
+
+.sword {
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.one {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: green;
+    opacity: 0.5;
+}
+
+.wrapper {
+    width: 300px;
+    height: 25px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    
+}
+
+.two {
+    position: absolute;
+    background-color: purple;
+    opacity: 0.5;
+}
+
+.wrapper:hover > .two {
+    transform: rotate(12deg);
+}
+
+
+.three {
+    position: absolute;
+    background-color: red;
+    opacity: 0.5;
+}
+
+.wrapper:hover > .three {
+    transform: rotate(-12deg);
+}
+
+.wrp {
+    width: 40px;
+    height: 26px;
+    position: absolute;
+    left: 30px;
+    background-color: rgb(36, 37, 55);
+}
+
+.forSword {
+    position: absolute;
+    left: 210px;
+}
+
+
+.cradle {
+    position: absolute; 
+    top: 800px; 
+}
+
+.ball {
+    float: left;  
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 150px;
+    background: rgb(91 212 169); 
+    border-radius: 100%; 
+    transform-origin: 50% -100px;
+    
+}
+
+.ball:nth-child(1) {
+    background-color: rgb(47 51 236);
+    animation: ball1 0.5s infinite alternate  0.5s  ease-out;
+}
+.ball:nth-child(5) {
+    background-color: rgb(59 140 133);
+    animation: ball5 0.5s infinite alternate ease-out;
+}
+
+@keyframes ball1 {
+    0%,50% {
+    transform: rotate(0);
+}   100% {
+    transform: rotate(30deg);
+}
+}
+@keyframes ball5 {
+    0%,50% {
+    transform: rotate(0);
+}   100% {
+    transform: rotate(-30deg);
+}
+}
+  
