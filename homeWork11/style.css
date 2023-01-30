@@ -1,0 +1,252 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-body-tertiary {
+    background: none !important;
+}
+
+.navbar .reactangle {
+    position: absolute;
+    width: 97%;
+    height: 1px;
+    left: 18px;
+    top: 60px;
+    background: #DBDBDB;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.navbar .container {
+    justify-content: space-around !important;
+    margin-bottom: 30px;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px !important;
+}
+
+.navbar .d-flex {
+    position: relative;
+    width: 216px;
+    height: 29px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;     
+}
+
+.d-flex .icon {
+    position: absolute;
+    margin-left: 60px;
+    z-index: 1;
+    color: #8F8F8F;
+}
+
+.fa {
+    font-size: 13px !important;
+}
+
+.d-flex .form-control {
+    width: inherit;
+    margin-right: 0px !important;
+    border-radius: 1px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8F8F8F;
+}
+
+.navbar .nav-item {
+    margin-right: 20px;
+}
+
+.navbar .nav-item:last-child {
+    margin-right: 0px;
+}
+
+.navbar  .triangle {
+    position: relative;
+}
+
+.triangle  .red-elipse {
+    position: absolute;
+    top: 3px;
+    left: 15px;
+}
+
+.triangle  .five {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    font-size: 12px;
+    color: white;
+}
+
+.about .homer {
+    position: absolute;
+    left: 21%;
+    width: 11%;
+    border-radius: 50% !important;
+    cursor: pointer;
+}
+
+.about .row {
+    justify-content: center;
+}
+
+.about .info-text {
+    margin-top: 25px;
+    margin-left: 205px;
+}
+.about .info-text .name {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #262626;
+}
+
+.about .info-text .text-about-user {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+}
+
+.about .info-text a {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #133768;
+    text-decoration: none;
+}
+
+.info-posts .col-md-auto:last-child {
+    margin-right: 10px;
+}
+
+.about .dropdown-toggle {
+    height: 30px;
+}
+
+.first-wrapp {
+    margin-bottom: 10px;
+}
+
+.info-posts {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #262626;
+}
+
+.images_icon {
+    margin-left: 18%;
+    margin-top: 6%;
+}
+
+.images_icon .img-fluid {
+    width: 9%;
+    border-radius: 50%;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.images_icon .img-fluid:last-child {
+    margin: 0px;
+}
+
+.wrapper-text {
+    width: 85%;
+    display: flex;
+    gap: 7%;
+    margin-left: 19%;
+    margin-top: 1%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262626;
+}
+
+@media (max-width: 360px) {
+    .about .homer {
+        left: 60% !important;
+    }
+}
+
+@media (max-width: 720px) {
+    .navbar .reactangle {
+        display: none;
+    }
+    .about .row {
+        justify-content: end;
+    }
+    .about .homer {
+        left: 45%;
+    }
+    .info-posts .col-md-auto:last-child {
+        margin-right: 0px;
+    }
+    .images_icon {
+        margin-left: 2%;
+        margin-top: 6%;
+    }
+    .wrapper-text {
+        margin-left: 0px
+    }
+    .reactangle_two .reactangle {
+        display: none;
+    }
+    .last-block .img-fluid {
+        height: 100% !important;
+    }
+}
+
+.reactangle_two .reactangle {
+    position: absolute;
+    width: 65%;
+    height: 1px;
+    left: 264px;
+    top: 515px;
+    background: #DBDBDB;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.reactangle_two .reactangle .little_block {
+    position: absolute;
+    width: 64px;
+    height: 1px;
+    left: 392px;
+    background: #262626;
+    cursor: pointer;
+}
+
+.wrapperForIconsStyle {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8F8F8F;
+    cursor: pointer;
+}
+
+.wrapperForIconsStyle .post{
+    margin-right: 7px;
+    color: #262626;
+
+}
+
+.last-block {
+    margin-top: 30px;
+}
+
+.last-block .col-4 {
+    margin-bottom: 20px;
+}
+
+.last-block .img-fluid {
+    width: 297px;
+    height: 297px;
+}
