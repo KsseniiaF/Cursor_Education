@@ -1,0 +1,378 @@
+@import url(./null.scss);
+
+$cl: #505F98;
+$hedcl2: #091133;
+%btn_black {
+    width: 150px;
+    height: 24px;
+    margin-top: 1%;
+    cursor: pointer;
+    transition: all 1s;
+    background: #111B47;
+    border-radius: 2px;
+    border: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    &:hover {
+        transform: scale(1.2);
+        background-color: #2a40a3;
+    }  
+}
+%wrapp_for_div {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 125px 0;
+    h2 {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 48px;
+        color: $hedcl2;
+    }
+    p {
+        width: 540px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $cl;
+    }
+    button {
+        @extend %btn_black;
+    }
+}  
+.container {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    .header {
+        min-height: 1112px;
+        background-image: url(../img/designer_1.png);
+        background-size: 100% 100%;
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            img {
+                transition: all 1s;
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+            ul {
+                display: flex;
+                list-style: none;
+                padding-left: 0px;
+                a {
+                    text-decoration: none;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: $cl;
+                }
+                li {
+                    margin-right: 60px;
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                } 
+            }
+            button {
+                @extend %btn_black;
+            }
+        }
+        .wrapperForHeaderText {
+            display: flex;
+            flex-direction: column;
+            margin-top: 300px / 1440px * 100%;
+            margin-left: 165px / 1440px * 100%;
+            h1 {
+                width: 50%;
+                font-weight: 500;
+                font-size: 50px;
+                line-height: 66px;
+                letter-spacing: 1px;
+                color: #091133;
+            }
+            p {
+                width: 539px / 1440px * 100%;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: $cl;
+            }
+        }
+        .btn_designe {
+            display: flex;
+            gap: 30px;
+            margin-left: 165px / 1440px * 100%;
+            button {
+                @extend %btn_black;
+                height: 39px / 1440px * 100%;
+                font-size: 16px;
+                line-height: 26px;
+                &:last-child {
+                    background-color: white;
+                    border: 1px solid #111B47;
+                    color: #091133;
+                }
+            }
+        }
+    }
+    .block_one {
+        position: relative;
+        display: flex;
+        .wrappForText{
+            display: flex;
+            flex-direction: column;
+            margin-top: 160px / 1440px * 100%;
+            margin-left: 165px / 1440px * 100%;
+            h2 {
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 48px;
+                color: $hedcl2;
+            }
+            p {
+                width: 540px;
+                margin-bottom: 80px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: $cl;
+            }
+            .sectionForIcon {
+                display: flex;
+                justify-content: space-around;
+                h4 {
+                    margin: 5px 0;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: $hedcl2;
+                }
+                p {
+                    width: 255px;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #5D6970;
+                }
+            }
+        }
+        .wrappForImg {
+            position: absolute;
+            left: 51.04%;
+            right: 11.46%;
+            top: 26.35%;
+            bottom: 62.32%;
+        }
+    }
+    .container_block {
+        @extend %wrapp_for_div;
+    }
+    .footer_one {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-image: url(../img/Rectangle.png);
+        .wrappForText {
+            h2 {
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 48px;
+                color: $hedcl2;
+            }
+            p {
+                width: 540px;
+                margin: 0 auto;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: $cl;
+            }
+        }
+        .wrappForDollar {
+            p {
+                font-weight: 500;
+                font-size: 50px;
+                line-height: 66px;
+                color: $hedcl2;
+                margin-bottom: 0;
+                &:last-child {
+                    margin-bottom: 60px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: $cl;
+                }
+            }
+        }
+        .wrappForparagraph {
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #5D6970;
+            }
+            button {
+                @extend %btn_black;
+                margin-bottom: 170px;
+            }
+        }
+    }
+    .footer_two {
+        background-color: rgb(230 236 255);
+        position: relative;
+        .line {
+            width: 75%;
+            height: 2px;
+            position: absolute;
+            right: 12.5%;
+            top: 53%;
+            background: #CDD1D4;
+            z-index: 1;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 25px 0;
+            img {
+                padding: 5px;
+                cursor: pointer;
+                transition: all 1s;
+                &:hover {
+                    transform: scale(1.2);
+
+                }
+            }
+            .icon_group {
+                margin-top: 18px;
+                img {
+                    transition: all 0.5s;
+                    &:hover {
+                        transform: scale(1.2)
+                    }
+                }
+            }
+            button {
+                @extend %btn_black;
+            }
+            p {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                color: #939EA4;
+            }
+            ul {
+                display: flex;
+                list-style: none;
+                li {
+                    margin-right: 60px;
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                } 
+                a {
+                    color: #505F98;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    @media (max-width: 720px) {
+        & {
+            .header {
+                display: flex;
+                flex-direction: column;
+                background-image: none;
+                background-color: rgb(243 245 255);
+                .wrapperForHeaderText {
+                    margin-left: 0px;
+                    margin-top: 25px;
+                    h1 {
+                        width: 100%;
+                        font-size: 25px;
+                        text-align: center;
+                    }
+                    p {
+                        width: 100%;
+                        text-align: center;
+                    }
+                } 
+                .nav {
+                    flex-direction: inherit;
+                    ul { 
+                        justify-content: center;
+                    }
+                    .logo {
+                        width: 40%;
+                        margin: 0 auto;
+                        margin-bottom: 30px;
+                    }
+                    button {
+                        width: 40%;
+                        height: 30px;
+                        margin: 0 auto;
+                    }
+                } 
+                .btn_designe {
+                    justify-content: space-around;
+                    gap: 15px;
+                    margin-left: 0px;
+                    margin-top: 35px;
+                    button {
+                        width: 40%;
+                        height: 45px;
+                    }
+                }
+            }
+            .block_one {
+                text-align: center;
+                .wrappForImg {
+                    display: none;
+                }
+            }
+            .container_block {
+                text-align: center;
+                .wrappForImg {
+                    display: none;
+                }
+            }
+            .footer_one {
+                width: 720px;
+            }
+            .footer_two {
+                width: 720px;
+            }
+        }
+    }
+    @media (max-width: 360px) {
+        & {
+            .header {
+                width: 536px;
+                .wrapperForHeaderText {
+                    margin-top: 100px;
+                }
+            }
+            .block_one {
+                .wrappForText {
+                    margin-left: 0px;
+                }
+            }
+            .container_block {
+                margin-left: 56%;
+            }
+            .footer_one {
+                width: 536px;
+            }
+            .footer_two {
+                width: 536px;
+            }
+        }
+    }
+}
+
+
+
