@@ -140,7 +140,7 @@ body {
 
 @media (max-width:720px) {
     .container {
-        width: 720px;
+        width: 100%;
         overflow: hidden;
     }
     .header {
