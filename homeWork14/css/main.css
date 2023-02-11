@@ -31,6 +31,35 @@ a {
     text-decoration: none;
 }
 
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+
+#preloader.hide-preloader {
+    animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 header {
     height: 80px;
     background-color: #ffdc00;
@@ -433,42 +462,36 @@ button {
     font-size: 24px;
 }
 
-.reviews {
-    position: relative;
+
+.navigationArrows {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    margin-right: 20px;
 }
 
-.reviews .arrow-left, .reviews .arrow-right {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+
+.slider-child {
+    width: 1000px !important;;
+    display: flex !important;
+    gap: 45px;
+    margin: 50px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: none;
 }
 
-.reviews .arrow-right {
-    right: 50px;
-}
-
-.reviews .arrow-left {
-    left: 50px;
-}
-
-.reviews .review-slider {
-    width: 90%;
-    max-width: 900px;
-    margin: 50px auto;
-}
-
-.reviews .review-text {
+.slider-child .review-text {
     display: inline-block;
-    width: calc(70% - 15px);
+    width: 100%;
     margin-left: 15px;
     line-height: 24px;
     vertical-align: top;
 }
 
-.reviews .main-review-img {
+.slider-child .main-review-img {
     width: calc(30% - 15px);
+    height: 195px !important;
     margin-right: 10px;
     border: 5px solid #ffdc00;
     vertical-align: top;
@@ -476,22 +499,35 @@ button {
     height: auto;
 }
 
-.reviews .review-author {
+.slider-child .review-author .ava {
+    position: relative;
+    top: 26px;
+    left: 55%;
+    margin-right: 10px;
+}
+
+.slider-child  .review-author {
     display: block;
     text-align: right;
     margin: 10px 0 auto 0;
     vertical-align: top;
     padding-top: 15px;
+    padding-right: 85px;
 }
 
-.reviews .review-author > * {
-    vertical-align: top;
-}
-
-.reviews .review-author .ava {
+.navigationArrows {
     position: relative;
-    top: -15px;
-    margin-right: 10px;
+}
+
+.navigationArrows .prev {
+    position: absolute;
+    top: -285px;
+    left: -70px;
+}
+
+.navigationArrows .next {
+    top: -285px;
+    right: -115px;
 }
 
 .delivery .h2 {
